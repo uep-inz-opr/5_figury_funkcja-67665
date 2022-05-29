@@ -25,7 +25,7 @@ class Trojkat:
   self.ramie3=ramie3
  def poletrojkata(self):
   p=(self.ramie1+self.ramie2+self.ramie3)/2
-  pole3=round(math.sqrt((p*(p-self.ramie1)*(p-self.ramie2)*(p-self.ramie3))),2)
+  pole3=round((p*(p-self.ramie1)*(p-self.ramie2)*(p-self.ramie3))**2)
   self.suma3=self.suma3+pole3
 
 ilosc=float(input())
