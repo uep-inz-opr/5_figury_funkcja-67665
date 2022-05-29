@@ -1,3 +1,5 @@
+import math
+from math import sqrt
 class Kolo:
  suma1=0
  def __init__(self,promien):
