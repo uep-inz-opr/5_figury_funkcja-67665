@@ -48,3 +48,4 @@ for i in range(int(ilosc)):
 
 suma=round((a+b+c),2)
 print(suma)
+
